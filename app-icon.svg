@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Cuebird: chú chim cam đậu trên các dòng kịch bản, mũi tên = vạch đọc của máy nhắc chữ -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E2A4A"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="bird" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDBA74"/>
+      <stop offset="0.45" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#E35D18"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <g transform="translate(2,-12)">
+  <!-- dòng chữ -->
+  <rect x="52" y="132" width="150" height="16" rx="8" fill="#94A3B8" opacity="0.55"/>
+  <rect x="52" y="164" width="152" height="18" rx="9" fill="#F8FAFC"/>
+  <rect x="52" y="198" width="104" height="16" rx="8" fill="#94A3B8" opacity="0.4"/>
+  <!-- vạch đọc -->
+  <path d="M26 160 L42 173 L26 186 Z" fill="#F97316"/>
+  <!-- chim -->
+  <path d="M146 102 L114 86 L122 116 Z" fill="#E35D18"/>
+  <circle cx="170" cy="98" r="32" fill="url(#bird)"/>
+  <path d="M197 88 L222 97 L197 106 Z" fill="#FBBF24"/>
+  <path d="M146 104 Q166 132 192 108 Q168 116 146 104 Z" fill="#C2410C" opacity="0.85"/>
+  <circle cx="182" cy="89" r="6.5" fill="#FFFFFF"/>
+  <circle cx="184" cy="89" r="3.5" fill="#0B1020"/>
+  <path d="M162 126 L160 133 M178 126 L178 133" stroke="#C2410C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
